@@ -12,5 +12,5 @@ public interface PersonRepository extends MongoRepository<Person, String> {
 
 	List<Person> findByLastName(@Param("name") String name);
 	
-	List<Person> findByFirstNameAndLastName(@Param("firstName") String firstName, @Param("lastName") String lastName);
+	
 }
